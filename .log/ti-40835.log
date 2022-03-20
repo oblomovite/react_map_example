@@ -1,0 +1,34 @@
+[00:15:12.897] Global cache location '/Users/rob/Library/Caches/typescript/4.6', safe file path '/users/rob/projects/map_example/node_modules/typescript/lib/typingsafelist.json', types map path /users/rob/projects/map_example/node_modules/typescript/lib/typesmap.json
+[00:15:12.898] Processing cache location '/Users/rob/Library/Caches/typescript/4.6'
+[00:15:12.898] Trying to find '/Users/rob/Library/Caches/typescript/4.6/package.json'...
+[00:15:12.898] Finished processing cache location '/Users/rob/Library/Caches/typescript/4.6'
+[00:15:12.898] Process id: 40836
+[00:15:12.898] NPM location: /opt/homebrew/Cellar/node/17.4.0/bin/npm (explicit '--npmLocation' not  provided)
+[00:15:12.898] validateDefaultNpmLocation: false
+[00:15:12.898] Npm config file: /Users/rob/Library/Caches/typescript/4.6/package.json
+[00:15:12.899] Updating types-registry npm package...
+[00:15:12.899] Exec: /opt/homebrew/Cellar/node/17.4.0/bin/npm install --ignore-scripts types-registry@latest
+[00:15:12.905]     Failed. stdout:
+    stderr:
+    /bin/sh: /opt/homebrew/Cellar/node/17.4.0/bin/npm: No such file or directory
+    
+[00:15:12.905] Updated types-registry npm package
+[00:15:12.905] Types registry file '/Users/rob/Library/Caches/typescript/4.6/node_modules/types-registry/index.json' does not exist
+[00:15:13.801] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es5.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2016.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.dom.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.dom.iterable.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.core.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.collection.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.generator.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.promise.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/Users/rob/projects/map_example/node_modules/typescript/lib/lib.es2016.full.d.ts","/Users/rob/projects/map_example/src/pin.js","/Users/rob/projects/map_example/src/App.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["mapbox-gl"],"projectRootPath":"/Users/rob/projects/map_example/src","kind":"discover"}
+[00:15:13.810] Loaded safelist from types map file '/users/rob/projects/map_example/node_modules/typescript/lib/typesmap.json'
+[00:15:13.810] Explicitly included types: []
+[00:15:13.811] Inferred typings from unresolved imports: ["mapbox-gl"]
+[00:15:13.811] Result: {"cachedTypingPaths":[],"newTypingNames":["mapbox-gl"],"filesToWatch":["/Users/rob/projects/map_example/src/bower_components","/Users/rob/projects/map_example/src/node_modules"]}
+[00:15:13.811] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["mapbox-gl"],"filesToWatch":["/Users/rob/projects/map_example/src/bower_components","/Users/rob/projects/map_example/src/node_modules"]}
+[00:15:13.811] DirectoryWatcher:: Added:: WatchInfo: /Users/rob/projects/map_example/src/bower_components
+[00:15:13.811] DirectoryWatcher:: Added:: WatchInfo: /Users/rob/projects/map_example/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:15:13.812] Elapsed:: 0.38683295249938965ms DirectoryWatcher:: Added:: WatchInfo: /Users/rob/projects/map_example/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:15:13.812] DirectoryWatcher:: Added:: WatchInfo: /Users/rob/projects/map_example/src/node_modules
+[00:15:13.812] DirectoryWatcher:: Added:: WatchInfo: /Users/rob/projects/map_example/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:15:13.812] Elapsed:: 0.03741717338562012ms DirectoryWatcher:: Added:: WatchInfo: /Users/rob/projects/map_example/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[00:15:13.812] Installing typings ["mapbox-gl"]
+[00:15:13.812] 'mapbox-gl':: Entry for package 'mapbox-gl' does not exist in local types registry - skipping...
+[00:15:13.812] All typings are known to be missing or invalid - no need to install more typings
+[00:15:13.812] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["mapbox-gl"],"kind":"action::set"}
+[00:15:13.812] Response has been sent.
